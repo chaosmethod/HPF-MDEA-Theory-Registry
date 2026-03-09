@@ -4,6 +4,9 @@
 
 The **HPF–MDEA Theory Registry Engine** is a formal classification system designed to evaluate **physics theories, equations, Lagrangians, or framework descriptions** and determine how they function within the **HPF–MDEA architecture**.
 
+In the HPF–MDEA architecture, physical theories act as specialized operators rather than universal laws.  
+The registry exists to classify those operators so they can be safely routed by the MDEA execution layer.
+
 The engine does **not** judge whether a theory is *true*, *popular*, or *accepted*.
 Instead, it determines whether a theory can operate as a **legal executable expert** within the HPF routing framework.
 
