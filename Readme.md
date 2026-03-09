@@ -134,15 +134,15 @@ Partial Formal Input
 
 The HPF–MDEA architecture assumes system evolution follows:
 
-[
+$$
 X_{t+1} = F_{\Psi(X_t)}(X_t)
-]
+$$
 
 Where:
 
-* (X_t) = system state
-* (\Psi(X_t)) = routing function selecting the expert
-* (F_E) = evolution operator of expert (E)
+* $(X_t)$ = system state
+* $(\Psi(X_t))$ = routing function selecting the expert
+* $(F_E)$ = evolution operator of expert $(E)$
 
 The registry engine determines which theories can act as valid **experts** within this operator set.
 
@@ -244,9 +244,9 @@ Multiple failure modes may apply simultaneously.
 
 Each theory receives a **soft authority score**:
 
-[
+$$
 v_T = f_{resolution} \cdot f_{dynamics} \cdot f_{observables} \cdot f_{regime} \cdot U_{health}
-]
+$$
 
 This score reflects **structural executability**, not truth.
 
@@ -285,11 +285,11 @@ These entries can be stored as a **persistent registry of physics models**.
 
 ```
 Einstein–Maxwell–Dirac Lagrangian
-```
 
 ```
+$$
 L = √(-g)(R + ½ FμνFμν + ψ̄ iD ψ)
-```
+$$
 
 ### Registry Output
 
